@@ -15,3 +15,5 @@ C语言：指针
 4个BYTE，也就是4个地址编号  
 在32位系统下，是一个4个字节的无符号整数；在64位系统下是一个8个字节的无符号整数  
 [Chapter 1. Getting Started](ch01/README.md)
+[Chapter 1. Getting Started](ch01/README.md)  
+[代码：指针的定义](def_pointer.cpp)
