@@ -162,10 +162,10 @@ int **pp = &p; pp为0x100（p的地址）, *pp为0x123456，**pp为0
 能用低级指针的尽量不要用高级指针，一级指针二级指针最常用，三级指针很少  
 [多级指针](pointer3.cpp)
 ```
-	int a = 0;
-	int *p = &a;
-	int **pp = &p;//pp代表p的地址，*pp代表a的地址，**pp代表a的值
-	int ***ppp = &pp;//ppp代表pp的地址，*ppp代表p的地址，**ppp代表a的地址，***ppp代表a的值
+int a = 0;
+int *p = &a;
+int **pp = &p;//pp代表p的地址，*pp代表a的地址，**pp代表a的值
+int ***ppp = &pp;//ppp代表pp的地址，*ppp代表p的地址，**ppp代表a的地址，***ppp代表a的值
 ```
 
 
