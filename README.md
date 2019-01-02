@@ -133,17 +133,17 @@ char a[100]="192.168.2.5"
 ---
 指针数组的定义：  
 ```
-	char *a[10];//定义指针数组a，每个成员是char*类型的，一共10个成员
-	int *b[10];//定义指针数组b，每个成员是int*类型的，一共10个成员
-	printf("%lu,%lu\n",sizeof(a),sizeof(b));//结果：40,40
+char *a[10];//定义指针数组a，每个成员是char*类型的，一共10个成员
+int *b[10];//定义指针数组b，每个成员是int*类型的，一共10个成员
+printf("%lu,%lu\n",sizeof(a),sizeof(b));//结果：40,40
 ```
 给数组成员赋值：  
 ```
-	char i = 0;
-	//a = &i;//a和b为数组名，数组名不能作为左值
-	//b = &i;
-	a[0] = &i;//合法
-	printf("%lu,%lu\n",sizeof(a[0]),sizeof(*a[0]));//输出结果4,1
+char i = 0;
+//a = &i;//a和b为数组名，数组名不能作为左值
+//b = &i;
+a[0] = &i;//合法
+printf("%lu,%lu\n",sizeof(a[0]),sizeof(*a[0]));//输出结果4,1
 ```
 [完整代码](pointer_array.cpp)  
 
