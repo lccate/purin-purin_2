@@ -118,7 +118,13 @@ printf("%lu,%lu\n", sizeof(a),sizeof(p));//对数组来讲返回数组的大小4
 [代码](poin_ary.cpp)  
 c语言中所有数据类型都可以理解为一个char的数组  
 
+练习：把ip地址转化为整数  
+---
+输入ip地址  
+char a[100]="192.168.2.5"  
+把这个ip转化为unsigned int类型的整数  
+[代码](ip_int.cpp)  
 
-
-
-
+练习：利用指针进行多维数组排序 
+---
+[指针多维数组排序](poin_2array.cpp)
