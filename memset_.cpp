@@ -5,7 +5,7 @@
 
 #include<stdio.h>
 #include<string.h>
-int main()
+int main0008()
 {
 	int a[10] = {1,2,3,4,5,6,7,8,9,10};
 	//a[10] = { 0 };//错误赋值方法，这种初始化的方法只能在创建a数组时才能用
