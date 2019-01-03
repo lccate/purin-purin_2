@@ -210,13 +210,40 @@ int *test()
 }
 ```
 
-memset与memcpy
+memset与memcpy与memmove
 ---
 memset：将指定区域的内存置空（参数1：指定要置空内存的首地址；参数2:0；参数3：这块内存的大小，单位，字节）
 ```
 memset(a,0,sizeof(a));
 ```
+[memset](memset_.cpp)   
+memcpy:在两块内存之间拷贝数据（参数1：目标地址；参数2：原地址；参数3：拷贝多少内容，字节）  
+```
+memcpy(a,b,sizeof(b));
+```
+[memcpy](memset_.cpp)   
+memmove：移动内存(参数与memcpy一致）  
+```
+memmove(a,b,sizeof(b));
+```
+注意：使用memcpy的时候一定要确保内存没有重叠区域
+```
+memcpy(&a[3],&a[0],20);//出现内存重叠区域
+```
 
+指针小结
+---
+```
+int i;      定义整型变量
+int *p;     定义指向int型变量的指针变量
+int a[10];  定义int数组
+int *a[10]; 定义指针数组，数组中的每个元素指向一个int型变量的地址
+int func(); 定义函数，返回值类型为int
+int *func();定义函数，返回值类型为int *型
+int **p;    定义指向int型指针的指针，二级指针
+```
 
+字符指针与字符串
+---
 
 
