@@ -221,7 +221,7 @@ memcpy:在两块内存之间拷贝数据（参数1：目标地址；参数2：�
 ```
 memcpy(a,b,sizeof(b));
 ```
-[memcpy](memset_.cpp)   
+[memcpy](memcpy_.cpp)   
 memmove：移动内存(参数与memcpy一致）  
 ```
 memmove(a,b,sizeof(b));
