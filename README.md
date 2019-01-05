@@ -269,4 +269,6 @@ argc:argv数组的成员数量
 argv：数组的每个成员都是char类型   
 argc：命令行参数的数量  
 argv：命令行参数的字符串数组  
-[指针数组作为main函数的形参](poin_array_main.cpp)
+[指针数组作为main函数的形参](poin_array_main.cpp)  
+练习：通过main函数实现四则加法运算，例如，命令行输入a 5 + 6 输出5+6的结果11  
+[代码](main_multi.cpp)
