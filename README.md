@@ -261,6 +261,12 @@ p[0] = 'a';
 
 指针数组作为main函数的形参
 ---
-
-
-
+```
+int main(int argc, char *argv[]);  
+```
+main函数是系统调用的，main函数的参数功能是得到命令行的参数
+argc:argv数组的成员数量   
+argv：数组的每个成员都是char类型   
+argc：命令行参数的数量  
+argv：命令行参数的字符串数组  
+[指针数组作为main函数的形参](poin_array_main.cpp)
